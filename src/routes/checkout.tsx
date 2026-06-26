@@ -7,7 +7,7 @@ import { formatKES } from "@/lib/data";
 export const Route = createFileRoute("/checkout")({
   head: () => ({
     meta: [
-      { title: "Checkout — JIBAR Technologies" },
+      { title: "Checkout — JIBAR TECHNOLOGIES" },
       { name: "description", content: "Secure guest checkout with M-Pesa. Payment confirmed before dispatch." },
     ],
   }),

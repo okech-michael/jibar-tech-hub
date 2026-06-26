@@ -6,9 +6,9 @@ import { categories, products } from "@/lib/data";
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
-      { title: "Shop — JIBAR Technologies" },
+      { title: "Shop — JIBAR TECHNOLOGIES" },
       { name: "description", content: "Browse premium laptops, gaming PCs, monitors, networking and accessories with nationwide delivery in Kenya." },
-      { property: "og:title", content: "Shop Premium Electronics — JIBAR Technologies" },
+      { property: "og:title", content: "Shop Premium Electronics — JIBAR TECHNOLOGIES" },
       { property: "og:description", content: "Genuine electronics with manufacturer warranty." },
     ],
   }),

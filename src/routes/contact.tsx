@@ -6,9 +6,9 @@ import { PHONE, WHATSAPP_URL } from "@/lib/data";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — JIBAR Technologies" },
+      { title: "Contact — JIBAR TECHNOLOGIES" },
       { name: "description", content: "Visit our Nairobi shop, call 0790210629, or message us on WhatsApp. We respond fast." },
-      { property: "og:title", content: "Contact JIBAR Technologies" },
+      { property: "og:title", content: "Contact JIBAR TECHNOLOGIES" },
       { property: "og:description", content: "Call, WhatsApp or visit our Nairobi shop." },
     ],
   }),
@@ -59,7 +59,7 @@ function Contact() {
           <div className="space-y-6">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-surface">
               <iframe
-                title="JIBAR Technologies location"
+                title="JIBAR TECHNOLOGIES location"
                 src="https://www.google.com/maps?q=Nairobi%20CBD&output=embed"
                 className="w-full h-full"
                 loading="lazy"

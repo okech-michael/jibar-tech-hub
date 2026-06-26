@@ -57,7 +57,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="container-x py-6 flex flex-col md:flex-row gap-3 md:items-center md:justify-between text-xs text-primary-foreground/60">
-          <p>© {new Date().getFullYear()} JIBAR Technologies. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} JIBAR TECHNOLOGIES. All rights reserved.</p>
           <p>Nairobi, Kenya · Nationwide Delivery · M-Pesa Accepted</p>
         </div>
       </div>

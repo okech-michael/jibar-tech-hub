@@ -9,9 +9,9 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "JIBAR Technologies — Premium Electronics in Kenya" },
+      { title: "JIBAR TECHNOLOGIES — Premium Electronics in Kenya" },
       { name: "description", content: "Shop premium laptops, gaming PCs, monitors and accessories with nationwide delivery across Kenya. Genuine products. Manufacturer warranty. M-Pesa accepted." },
-      { property: "og:title", content: "JIBAR Technologies — Premium Electronics" },
+      { property: "og:title", content: "JIBAR TECHNOLOGIES — Premium Electronics" },
       { property: "og:description", content: "Genuine electronics. Nationwide delivery. M-Pesa accepted." },
       { property: "og:image", content: heroImg },
     ],

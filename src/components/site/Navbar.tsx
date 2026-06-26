@@ -39,7 +39,7 @@ export function Navbar({ transparent = false }: { transparent?: boolean }) {
       ].join(" ")}
     >
       <div className="container-x flex h-16 md:h-20 items-center justify-between gap-6">
-        <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="JIBAR Technologies">
+        <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="JIBAR TECHNOLOGIES">
           <span className={["grid place-items-center h-9 w-9 rounded-md font-bold text-sm tracking-tight",
             solid ? "bg-primary text-primary-foreground" : "bg-white/10 text-white backdrop-blur"].join(" ")}>JB</span>
           <span className={["font-semibold tracking-tight text-base md:text-lg",

@@ -8,10 +8,9 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { CartDrawer } from "@/components/site/CartDrawer";
@@ -39,7 +38,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => { reportLovableError(error, { boundary: "tanstack_root_error_component" }); }, [error]);
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
@@ -63,16 +61,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "JIBAR Technologies — Premium Electronics in Kenya" },
+      { title: "JIBAR TECHNOLOGIES — Premium Electronics in Kenya" },
       { name: "description", content: "Genuine laptops, gaming PCs, monitors, networking and household electronics with nationwide delivery across Kenya. Based in Nairobi." },
-      { property: "og:title", content: "JIBAR Technologies — Premium Electronics in Kenya" },
+      { property: "og:title", content: "JIBAR TECHNOLOGIES — Premium Electronics in Kenya" },
       { property: "og:description", content: "Genuine laptops, gaming PCs, monitors, networking and household electronics with nationwide delivery across Kenya. Based in Nairobi." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "JIBAR Technologies — Premium Electronics in Kenya" },
+      { name: "twitter:title", content: "JIBAR TECHNOLOGIES — Premium Electronics in Kenya" },
       { name: "twitter:description", content: "Genuine laptops, gaming PCs, monitors, networking and household electronics with nationwide delivery across Kenya. Based in Nairobi." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b6ca5a0-4008-439e-8028-bc15188fc306/id-preview-3cf16f45--00a3537a-87b6-4af1-9c79-2ec4429cc139.lovable.app-1782492385202.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b6ca5a0-4008-439e-8028-bc15188fc306/id-preview-3cf16f45--00a3537a-87b6-4af1-9c79-2ec4429cc139.lovable.app-1782492385202.png" },
+      { property: "og:image", content: "/assets/hero-laptop.jpg" },
+      { name: "twitter:image", content: "/assets/hero-laptop.jpg" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

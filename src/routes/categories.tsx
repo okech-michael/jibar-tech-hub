@@ -6,9 +6,9 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/categories")({
   head: () => ({
     meta: [
-      { title: "Categories — JIBAR Technologies" },
+      { title: "Categories — JIBAR TECHNOLOGIES" },
       { name: "description", content: "Explore all electronics categories: laptops, gaming PCs, monitors, networking, accessories and more." },
-      { property: "og:title", content: "Browse Categories — JIBAR Technologies" },
+      { property: "og:title", content: "Browse Categories — JIBAR TECHNOLOGIES" },
       { property: "og:description", content: "Browse laptops, gaming PCs, monitors and more." },
     ],
   }),

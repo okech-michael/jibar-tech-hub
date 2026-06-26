@@ -6,9 +6,9 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — JIBAR Technologies" },
-      { name: "description", content: "JIBAR Technologies is a Nairobi-based premium electronics retailer delivering genuine products with manufacturer warranty across Kenya." },
-      { property: "og:title", content: "About JIBAR Technologies" },
+      { title: "About — JIBAR TECHNOLOGIES" },
+      { name: "description", content: "JIBAR TECHNOLOGIES is a Nairobi-based premium electronics retailer delivering genuine products with manufacturer warranty across Kenya." },
+      { property: "og:title", content: "About JIBAR TECHNOLOGIES" },
       { property: "og:description", content: "Premium electronics retailer based in Nairobi, serving all of Kenya." },
     ],
   }),
@@ -24,7 +24,7 @@ function About() {
         <div className="relative container-x max-w-3xl">
           <p className="eyebrow text-accent mb-4">Our Story</p>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white leading-tight">A modern electronics retailer, built in Nairobi.</h1>
-          <p className="mt-6 text-lg text-white/75 leading-relaxed">JIBAR Technologies was founded on a simple belief: Kenyans deserve a premium, trustworthy way to buy genuine electronics — without paying a premium for it.</p>
+          <p className="mt-6 text-lg text-white/75 leading-relaxed">JIBAR TECHNOLOGIES was founded on a simple belief: Kenyans deserve a premium, trustworthy way to buy genuine electronics — without paying a premium for it.</p>
         </div>
       </section>
 
