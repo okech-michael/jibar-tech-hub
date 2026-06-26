@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <Link to="/" className="flex items-center gap-2 mb-5">
               <span className="grid place-items-center h-9 w-9 rounded-md bg-accent text-accent-foreground font-bold text-sm">JB</span>
-              <span className="font-semibold text-lg">JIBAR<span className="text-accent">.</span></span>
+              <span className="font-semibold text-lg">JIBAR TECHNOLOGIES</span>
             </Link>
             <p className="text-sm text-primary-foreground/70 leading-relaxed max-w-sm">
               Premium electronics retailer based in Nairobi, delivering genuine products with manufacturer warranties across Kenya.

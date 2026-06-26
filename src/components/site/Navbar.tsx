@@ -44,7 +44,7 @@ export function Navbar({ transparent = false }: { transparent?: boolean }) {
             solid ? "bg-primary text-primary-foreground" : "bg-white/10 text-white backdrop-blur"].join(" ")}>JB</span>
           <span className={["font-semibold tracking-tight text-base md:text-lg",
             solid ? "text-foreground" : "text-white"].join(" ")}>
-            JIBAR<span className="text-accent">.</span>
+            JIBAR TECHNOLOGIES
           </span>
         </Link>
 
