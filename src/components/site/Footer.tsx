@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Phone, MapPin, Clock, Mail, Facebook, Instagram, Twitter } from "lucide-react";
 import { PHONE, WHATSAPP_URL, categories } from "@/lib/data";
-import logo from "@/assets/logo.jpeg";
+import logo from "../../assets/logo.jpeg";
 
 export function Footer() {
   return (

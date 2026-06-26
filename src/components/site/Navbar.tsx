@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Search, ShoppingCart, Phone, Menu, X } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { PHONE } from "@/lib/data";
-import logo from "@/assets/logo.jpeg";
+import logo from "../../assets/logo.jpeg";
 
 const nav = [
   { to: "/", label: "Home" },
