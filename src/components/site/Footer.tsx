@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Phone, MapPin, Clock, Mail, Facebook, Instagram, Twitter } from "lucide-react";
 import { PHONE, WHATSAPP_URL, categories } from "@/lib/data";
+import logo from "@/assets/logo.jpeg";
 
 export function Footer() {
   return (
@@ -9,7 +10,9 @@ export function Footer() {
         <div className="grid gap-12 lg:gap-16 lg:grid-cols-[1.2fr_1fr_1fr_1.1fr]">
           <div>
             <Link to="/" className="flex items-center gap-2 mb-5">
-              <span className="grid place-items-center h-9 w-9 rounded-md bg-accent text-accent-foreground font-bold text-sm">JB</span>
+              <span className="grid place-items-center h-9 w-9 rounded-md overflow-hidden bg-accent">
+                <img src={logo} alt="JIBAR TECHNOLOGIES logo" className="h-full w-full object-cover" />
+              </span>
               <span className="font-semibold text-lg">JIBAR TECHNOLOGIES</span>
             </Link>
             <p className="text-sm text-primary-foreground/70 leading-relaxed max-w-sm">

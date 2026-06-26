@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Search, ShoppingCart, Phone, Menu, X } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { PHONE } from "@/lib/data";
+import logo from "@/assets/logo.jpeg";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -40,8 +41,10 @@ export function Navbar({ transparent = false }: { transparent?: boolean }) {
     >
       <div className="container-x flex h-16 md:h-20 items-center justify-between gap-6">
         <Link to="/" className="flex items-center gap-2 shrink-0" aria-label="JIBAR TECHNOLOGIES">
-          <span className={["grid place-items-center h-9 w-9 rounded-md font-bold text-sm tracking-tight",
-            solid ? "bg-primary text-primary-foreground" : "bg-white/10 text-white backdrop-blur"].join(" ")}>JB</span>
+          <span className={['grid place-items-center h-9 w-9 rounded-md overflow-hidden',
+            solid ? "bg-primary text-primary-foreground" : "bg-white/10 text-white backdrop-blur"].join(" ")}>
+            <img src={logo} alt="JIBAR TECHNOLOGIES logo" className="h-full w-full object-cover" />
+          </span>
           <span className={["font-semibold tracking-tight text-base md:text-lg",
             solid ? "text-foreground" : "text-white"].join(" ")}>
             JIBAR TECHNOLOGIES
