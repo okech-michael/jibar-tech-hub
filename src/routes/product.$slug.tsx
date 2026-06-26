@@ -122,7 +122,7 @@ function ProductPage() {
                 <div className="pt-5 text-sm text-muted-foreground leading-relaxed transition-opacity duration-300">
                   {tab === "specs" && (
                     <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-3">
-                      {product.specs.map((s) => (
+                      {product.specs.map((s: { label: string; value: string }) => (
                         <div key={s.label} className="flex justify-between gap-4 py-2 border-b border-border/60">
                           <dt className="text-muted-foreground">{s.label}</dt>
                           <dd className="text-foreground font-medium text-right">{s.value}</dd>
